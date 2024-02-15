@@ -139,7 +139,7 @@ class NewslistWidget extends StatelessWidget {
                       ? Padding(
                           padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.02, vertical: screenHeight * 0.01),
                           child: Container(
-                            height: screenHeight * 0.06,
+                            height: screenHeight * 0.07,
                             width: double.infinity,
                             child: Text(
                               desc!,
@@ -154,7 +154,7 @@ class NewslistWidget extends StatelessWidget {
                       : Padding(
                           padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.02, vertical: screenHeight * 0.01),
                           child: Container(
-                            height: screenHeight * 0.035,
+                            height: screenHeight * 0.039,
                             width: double.infinity,
                             child: Text(
                               "no description",
@@ -182,7 +182,7 @@ class NewslistWidget extends StatelessWidget {
                   ),
                   SizedBox(height: screenHeight * 0.01),
                   Padding(
-                    padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.02), 
+                    padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.03), 
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
