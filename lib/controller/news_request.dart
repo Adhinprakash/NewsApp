@@ -18,7 +18,6 @@ class   NewsApi extends ChangeNotifier {
 
       articles = body.map((dynamic item) => Article.fromJson(item)).toList();
       isLoading = false;
-
       notifyListeners();
       isLoading = false;
       return articles;
